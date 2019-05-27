@@ -102,6 +102,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 AuthUI.getInstance().createSignInIntentBuilder()
                 .setAvailableProviders(providers)
                 .setTheme(R.style.MyTheme)
+                .setLogo(R.drawable.logo)
                 .build(),
                 MY_REQUEST_CODE
         );
